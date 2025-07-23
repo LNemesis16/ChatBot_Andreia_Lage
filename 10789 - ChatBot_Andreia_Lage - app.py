@@ -52,6 +52,10 @@ def obter_resposta(texto: str) -> str:
         'quanto é 5+5?': '5 + 5 = 10!',
         'qual é o teu filme favorito?': 'Adoro filmes de ficção científica!',
         'quantos anos tens?': 'Eu sou um bot, por isso não tenho idade.',
+        'gostas de programar?': 'Claro! Python é a minha linguagem favorita!',
+        'qual é o teu desporto favorito?': 'Gosto muito de futebol virtual!',
+        'qual é o teu objetivo?': 'Ajudar-te a aprender e conversar contigo.',
+        'gostas de viajar?': 'Sim, virtualmente já visitei todo o mundo!'
      }
 
      for chave, resposta in respostas.items():
