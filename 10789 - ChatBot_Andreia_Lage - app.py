@@ -48,6 +48,10 @@ def obter_resposta(texto: str) -> str:
         'data': f'Hoje é dia: {datetime.now():%d-%m-%Y}',
         'qual é a tua cor favorita?': 'A minha cor favorita é azul, como o céu!',
         'gostas de música?': 'Adoro música, especialmente eletrónica!',
+        'qual é a capital de portugal?': 'A capital de Portugal é Lisboa.',
+        'quanto é 5+5?': '5 + 5 = 10!',
+        'qual é o teu filme favorito?': 'Adoro filmes de ficção científica!',
+        'quantos anos tens?': 'Eu sou um bot, por isso não tenho idade.',
      }
 
      for chave, resposta in respostas.items():
