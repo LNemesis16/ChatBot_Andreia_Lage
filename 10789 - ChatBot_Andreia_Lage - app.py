@@ -46,6 +46,8 @@ def obter_resposta(texto: str) -> str:
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
         'horas': f'São: {datetime.now():%H:%M} horas',
         'data': f'Hoje é dia: {datetime.now():%d-%m-%Y}',
+        'qual é a tua cor favorita?': 'A minha cor favorita é azul, como o céu!',
+        'gostas de música?': 'Adoro música, especialmente eletrónica!',
      }
 
      for chave, resposta in respostas.items():
