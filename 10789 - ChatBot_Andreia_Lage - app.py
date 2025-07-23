@@ -41,6 +41,8 @@ def obter_resposta(texto: str) -> str:
     respostas = {
          ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
         'como estás': 'Estou bem, obrigado!',
+        'como te chamas?': 'O meu nome é: Bot :)',
+        'tempo': 'Está um dia de sol!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
      }
 
