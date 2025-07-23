@@ -58,14 +58,14 @@ def obter_resposta(texto: str) -> str:
         'gostas de viajar?': 'Sim, virtualmente já visitei todo o mundo!'
      }
 
-     for chave, resposta in respostas.items():
+    for chave, resposta in respostas.items():
          if isinstance(chave, tuple):
              if comando in chave:
                  return resposta
          elif chave in comando:
              return resposta
 
-     return f'Desculpa, não entendi a questão! {texto}'
+    return f'Desculpa, não entendi a questão! {texto}'
 
 
 def chat() -> None:
@@ -76,6 +76,8 @@ def chat() -> None:
 
     while True:
         user_input: str = input('Tu: ')
+        resposta = obter_resposta(user_input)
+        print(f'Bot: {resposta}')
 
         if resposta == 'Gostei de falar contigo! Até breve...':
             break
